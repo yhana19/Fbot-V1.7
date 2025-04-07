@@ -1,0 +1,13 @@
+{
+  "prefix": "/",
+  "ownerID": "100030880666720",
+  "option": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "logLevel": "silent",
+    "selfListen": false,
+    "updatePresence": true,
+    "autoMarkDelivery": true,
+    "autoMarkRead": true
+  }
+}
