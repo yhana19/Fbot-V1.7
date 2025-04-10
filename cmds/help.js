@@ -58,8 +58,8 @@ Version: ${command.version}`;
             .join("\n\n");
 
         const helpMessage = `
-╔════════════╗
-     🤖 Bot Commands 🤖
+╔═══(★^O^★)══╗
+  Bot Command
 ╚════════════╝
 Here are some commands:  
 ${commandArray}
