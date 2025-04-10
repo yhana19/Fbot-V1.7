@@ -1,7 +1,7 @@
 const os = require('os');
 
 module.exports = {
-  name: 'uptimw',
+  name: 'system',
   description: 'Uptime of the bot',
   author: 'joshua Apostol',
   nashPrefix: false,
