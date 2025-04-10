@@ -59,7 +59,7 @@ Version: ${command.version}`;
 
         const helpMessage = `
 ╔═══(★^O^★)══╗
-  Bot Command
+   Bot Command
 ╚════════════╝
 Here are some commands:  
 ${commandArray}
