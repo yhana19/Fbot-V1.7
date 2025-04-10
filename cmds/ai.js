@@ -23,7 +23,7 @@ module.exports = {
                 }
             }
 
-            const loadingMsg = await api.sendMessage("🧠 Gemini is thinking...", threadID);
+            const loadingMsg = await api.sendMessage("🔎𝗖𝗿𝗲𝗱𝗲𝗻𝗰𝗲 𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻...", threadID);
 
             const response = await axios.get(apiUrl);
             const description = response?.data?.data?.description;
