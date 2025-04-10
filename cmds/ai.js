@@ -29,7 +29,7 @@ module.exports = {
             const description = response?.data?.data?.description;
 
             if (description) {
-                return api.sendMessage(`🤖 **Gemini**\n━━━━━━━━━━━━━━━━\n${description}\n━━━━━━━━━━━━━━━━`, threadID, loadingMsg.messageID);
+                return api.sendMessage(`💬𝗬𝗼𝘂𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗖𝗿𝗲𝗱𝗲𝗻𝗰𝗲\n━━━━━━━━━━━━━━━━\n${description}\n━━━━━━━━━━━━━━━━`, threadID, loadingMsg.messageID);
             }
 
             return api.sendMessage("⚠️ No description found in response.", threadID, loadingMsg.messageID);
